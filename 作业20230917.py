@@ -1,0 +1,22 @@
+import turtle
+import time
+turtle.bgcolor('black')
+turtle.tracer(0)
+turtle.speed(0)
+turtle.pensize(5)
+turtle.left(90)
+turtle.hideturtle()
+while True:
+    turtle.color('yellow')
+    turtle.fd(100)
+    turtle.backward(200)
+    turtle.goto(0,0)
+    turtle.color('red')
+    turtle.fd(50)
+    turtle.backward(100)
+    turtle.goto(0,0)
+    turtle.update()
+    time.sleep(0.0001)
+    turtle.clear()
+    turtle.right(10)
+turtle.done()
